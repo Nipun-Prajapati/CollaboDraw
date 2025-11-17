@@ -1,8 +1,12 @@
+import Canvas from "./components/Canvas"
+
 
 
 const App = () => {
   return (
-    <div className="text-2xl font-bold" >App</div>
+    <div>
+      <Canvas />
+    </div>
   )
 }
 
